@@ -1,0 +1,17 @@
+.not-found {
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .back {
+    padding: 10px 32px;
+    background: #0009;
+    border-radius: 8px;
+    margin-top: 16px;
+    &:hover {
+      color: inherit;
+      opacity: 0.9;
+    }
+  }
+}

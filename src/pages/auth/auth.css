@@ -1,0 +1,44 @@
+.form-wrapper {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background: url(../../images/safari.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+}
+
+.form input {
+  border: none;
+  padding: 10px;
+  font-size: 21px;
+  margin-bottom: 15px;
+  background: transparent;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form-btn {
+  width: 100%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  border-radius: 16px;
+  padding: 7px;
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: 17px;
+  border: none;
+  mix-blend-mode: luminosity;
+}

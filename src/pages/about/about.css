@@ -1,0 +1,39 @@
+.about {
+  height: calc(100vh - 100px);
+  padding: 40px;
+  width: 100%;
+  background: url(../../images/safari.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about h1 {
+  margin-bottom: 17px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 7px;
+  width: fit-content;
+  font-size: 40px;
+  mix-blend-mode: difference;
+  color: aliceblue;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #3333;
+  background: transparent;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  padding: 32px 16px;
+}
+
+.about p {
+  font-size: 21px;
+  margin: 10px 0;
+  font-weight: 500;
+  mix-blend-mode: difference;
+  color: aliceblue;
+}
